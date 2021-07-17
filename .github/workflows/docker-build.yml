@@ -31,7 +31,7 @@ jobs:
         with:
           push: true
           context: .
-          # file: ./Dockerfile
+          file: ./Dockerfile
           tags: python-helloworld:latest
       -
         name: Image digest
